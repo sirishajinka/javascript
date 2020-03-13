@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    background-color:lightskyblue;
+}
+.Calculator{
+    background-color: lightskyblue;
+    width:450px;
+    height:250px;
+    padding-top:100px;
+}
