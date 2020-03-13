@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <script>
+        var employee = [{ "name": "sirisha", "id": 304, "age": 20, "location": "Chennai", "department": "Finance", "salary": 12000 },
+        { "name": "Madhumitha", "id": 305, "age": 22, "location": "Chennai", "department": "Human Resource", "salary": 16000 },
+        { "name": "Ananya", "id": 303, "age": 23, "location": "Chennai", "department": "Finance", "salary": 15000 },
+        { "name": "Sneha", "id": 307, "age": 24, "location": "Chennai", "department": "Business Unit", "salary": 14000 }];
+        var emp = JSON.stringify(employee);
+        var emp2 = JSON.parse(emp);
+        for (var i = 0; i < employee.length; i++) {
+            document.write("<table border=20 cellspacing=4 cellpadding= 4>")
+            document.write("<tr>" + "<td>" + emp2[i].name + "</td>" + "<td>" + emp2[i].id + "</td>" + "<td>"
+                + emp2[i].age + "</td>" + "<td>" + emp2[i].location + "</td>" + "<td>" + emp2[i].department + "</td>"
+                + "<td>" + emp2[i].salary + "</td>" + "</tr>");
+        }
+    </script>
+</head>
+
+</html>
