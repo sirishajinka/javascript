@@ -1,5 +1,5 @@
 {
-  "name": "interface",
+  "name": "tuples",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^3.8.2"
+    "typescript": "^3.8.3"
   }
 }
