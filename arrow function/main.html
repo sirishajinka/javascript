@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Form</title>
+        <script>
+            function func(){
+                alert("Thanks for submitting the form");
+            }
+        </script>
+        <link  rel="stylesheet" href="style2.css" type="text/css"> 
+    </head>
+    <body>
+        <div class="form">
+        <h1>Fill the Form</h1>
+        <form>
+        User Name : <input type="email" id="email" name="email" pattern="[a-zA-Z0-9]+@[a-z]+(.[a-z])*$"><br><br>
+        Password : <input type="password" id="password" name="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"><br><br>
+        Phone Number : <input type="tel" id="phone" name="phone" pattern="[1-9]{1}[0-9]{9}" required ><br><br>
+        Gender : <select type="text">
+            <option value="default">Default</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+        <input type="checkbox" > I agree to the terms and conditions.<br><br>
+        <input type="submit" >
+        </form>
+        </div>
+    </body>
+</html>
